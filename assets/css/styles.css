@@ -1,0 +1,160 @@
+/*CSS Reset */
+body, header, nav, main, footer, img, h1, h3 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #32394e;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color:#2a3042;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: #f6eee4;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+}
+
+.nav.active {
+    background: #323a4e;
+    color:rgba(255,255,255,.7)
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    color: #f6eee4;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+main h3 {
+    padding-top: 2%;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+body {
+    color: #f6eee4;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.link {
+    color: #4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact {
+	text-align: center;
+}
+
+#id {
+    text-align: center;
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #2a3042;
+    color: #f6eee4;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+footer a {
+    color: #f3e6d8 ;
+    text-decoration: none;
+}
+
+/* COVID-19 HOME SECTION */
+.covid-container {
+    max-width:980px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1140px
+}
+
+#left {
+    text-align: left;
+}
+
+#center {
+    text-align: center;
+}
+#right {
+    text-align: right;
+}
+
+img {
+    max-width: 100%
+}
+
+#covid-graph-left {
+    float: left;
+}
+
+#covid-graph-right {
+    float: right;
+}
+
+#covid-graph-text-left {
+    float: left;
+}
+
+#covid-graph-text-right {
+    float: right;
+}
+
+.w3-content{max-width:980px}
+.w3-content,.w3-auto{margin-left:auto;margin-right:auto}
+.w3-auto{max-width:1140px}
+.w3-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+
+

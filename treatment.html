@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- 
+	Student Name: Kenny Cabrera
+	File Name: treatment.html
+	Today's Date: March 15, 2022
+ -->
+<html lang="en">
+<head>
+	<title>Gulag Health | Treatment</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/icon" href="favicon.ico">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<!-- Navigation Bar-->
+	<nav>
+		<ul>
+		<li><a href="index.html"><i class="fa fa-home fa-fw"></i>Home</a></li>
+		<li><a href="treatment.html"><i class="fa fa-medkit fa-fw"></i>Treatment</a></li>
+		<li><a href="help.html"><i class="fa fa-info fa-fw"></i>Help</a></li>
+	</ul>
+	</nav>
+
+	<!-- Header -->
+	<header class="w3-content" style="max-width:1600px;min-width:500px" id="home">
+		<img class="w3-image" src="assets/images/cover.jpg" alt="Doc" width="1600" height="800">
+	  </header>
+
+	  <br>
+
+	  <!-- COVID-19 Section 1 -->
+	  <div class="covid-container"style="max-width:1600px;min-width:500px">
+		<div id="left">
+			<img id="covid-graph-left" src="assets/images/covid-shot.jpg" width="800" height="640" marginheight="0" marginwidth="0" frameborder="0"></img>
+		</div>
+		
+		<div class="covid-text-right">
+			<h1 style="text-align: left; display: inline-block; padding-left: 8%; padding-top: 7%; font-size: 65px;">Types of Vaccines:</h1>
+			<h1 style="text-align: left; display: inline-block; padding-left: 8%; font-size: 50px">
+				<ul>
+				<li>Pfizer-BioNTech</li>
+				<li>Moderna</li>
+				<li>Johnson & Johnson</li>
+			</ul>
+			</h1>
+		</div>
+	  </div>
+
+	  <!-- Reset Style -->
+	  <br style="clear: both;">
+
+	  <!-- COVID-19 Section 2 -->
+	  <div class="covid-container"style="max-width:1600px;min-width:500px">
+		<div id="right">
+			<img id="covid-graph-right" src="assets/images/doctor.jpg" width="800" height="640" marginheight="0" marginwidth="0" frameborder="0"></img>
+		</div>
+
+		<div class="covid-text-left">
+			<h1 style="text-align: left; display: inline-block; padding-left: 0%; padding-top: 7%; font-size: 65px;">Treatments for COVID-19:</h1>
+			<h1 style="text-align: left; display: inline-block; padding-left: 4%; font-size: 50px">
+				<ul>
+				<li>Monoclonal Antibodies</li>
+				<li>Oral Antivirals Medications</li>
+				<li>Anti-inflammatories</li>
+			</ul>
+			</h1>
+		</div>
+	  </div>
+	  	  <!-- Reset Style -->
+			<br style="clear: both;"><br><br>
+			
+			<!--COVID-19 VACCINE THING -->
+			<div class="covid-container"style="max-width:1600px;min-width:500px">
+				<h1 style="text-align: center; font-size: 65px;">Schedule an appointment for COVID-19 today!</h1><br>
+				<div class="covid-container" style="text-align: center; font-size: 25px;"><b>Select One Option Below</b></div><br>
+				<form id="center" action="https://vaccines.gov/results/">
+					<input type="checkbox" name="medications" value="a84fb9ed-deb4-461c-b785-e17c782ef88b,779bfe52-0dd8-4023-a183-457eb100fccc,784db609-dc1f-45a5-bad6-8db02e79d44f" checked>
+					<label style="font-size: 22px;" for="a84fb9ed-deb4-461c-b785-e17c782ef88b,779bfe52-0dd8-4023-a183-457eb100fccc,784db609-dc1f-45a5-bad6-8db02e79d44f">All Vaccines</label><br>
+
+					<input type="checkbox" name="medications" value="a84fb9ed-deb4-461c-b785-e17c782ef88b">
+					<label style="font-size: 22px;" for="Pfizer-BioNTech">Pfizer-BioNTech</label><br>
+					
+					<input type="checkbox" name="medications" value="779bfe52-0dd8-4023-a183-457eb100fccc">
+					<label style="font-size: 22px;" for="779bfe52-0dd8-4023-a183-457eb100fccc">Moderna</label><br>
+					
+					<input type="checkbox" name="medications" value="784db609-dc1f-45a5-bad6-8db02e79d44f">
+					<label style="font-size: 22px;" for="784db609-dc1f-45a5-bad6-8db02e79d44f">Johnson & Johnson</label><br>
+				</div><br>
+
+				<div class="covid-container" style="text-align: center; font-size: 20px;">
+				<legend id="center"><span>Input Zip Code & Radius</span></legend>
+				<input type="number" id="left" class="covid-container" autocomplete="off" placeholder="Zip Code" aria-required="true" name="zipcode" value="" maxlength="5">
+				<select name="radius" id="center">
+					<option value="1">1 mile</option>
+					<option value="5">5 miles</option>
+					<option value="10">10 miles</option>
+					<option value="25" selected>25 miles</option>
+					<option value="50">50 miles</option>
+				 </select><br>
+
+				 <input type="submit" value="Submit">
+				</form></div><br>
+
+	  <!--Footer -->
+	<footer>
+		<p>&copy; Copyright 2021. All Rights Reserved.</p>
+	</footer>
+	
+</body>
+</html>
